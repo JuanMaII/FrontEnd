@@ -1,4 +1,10 @@
 body {
     background-color: coral;
-}
+    }
+    h1, h2 {
+        color:maroon
+    }
 
+p, ol, li {
+    color:darkred;
+}
