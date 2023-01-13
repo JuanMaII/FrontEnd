@@ -2,7 +2,7 @@ body {
     background-color: black;
     }
     
-h1, h2 {
+h2 {
         color:aliceblue
     }
 
@@ -12,4 +12,8 @@ p, ol, li {
 
 #argentinaprograma{
     color:yellow
+}
+
+img {
+    padding: 0em 0em 2em 0em;
 }
