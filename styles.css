@@ -1,11 +1,15 @@
 body {
-    background-color: coral;
+    background-color: black;
     }
     
 h1, h2 {
-        color:maroon
+        color:aliceblue
     }
 
 p, ol, li {
-    color:darkred;
+    color:beige
+}
+
+#argentinaprograma{
+    color:yellow
 }
