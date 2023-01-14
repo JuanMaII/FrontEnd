@@ -3,17 +3,24 @@ body {
     }
     
 h2 {
-        color:aliceblue
+        color:aliceblue;
     }
 
 p, ol, li {
-    color:beige
+    color:beige;
 }
 
 #argentinaprograma{
-    color:yellow
+    width: 50%;
+    padding: 0em 0em 2em 0em;
+    
 }
 
-img {
+#yoprogramo{
+    color: yellow;
+}
+
+#banner{
+    width: 100%;
     padding: 0em 0em 2em 0em;
 }
