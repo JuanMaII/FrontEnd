@@ -11,7 +11,7 @@ p, ol, li {
 }
 
 #argentinaprograma{
-    width: 50%;
+    width: 15%;
     padding: 0em 0em 2em 0em;
     
 }
@@ -21,6 +21,18 @@ p, ol, li {
 }
 
 #banner{
-    width: 100%;
-    padding: 0em 0em 2em 0em;
+    width: 2000px;
+    padding: 10em 0em 2em 0em;
+}
+
+.float-end{
+    padding: 0em 1em 1em 0em;
+}
+
+#facebook{
+    width: 50px;
+}
+
+#linkedin{
+    width: 50px;
 }
