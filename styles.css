@@ -21,8 +21,11 @@ p, ol, li {
 }
 
 #banner{
-    width: 2000px;
-    padding: 10em 0em 2em 0em;
+    width: 1850px;
+    height: 600px;
+    padding: 0,5em 0em 2em 0em;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .float-end{
