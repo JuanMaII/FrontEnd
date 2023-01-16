@@ -8,6 +8,7 @@ h2 {
 
 p, ol, li {
     color:beige;
+    margin-left: 5px;
 }
 
 #argentinaprograma{
@@ -21,14 +22,17 @@ p, ol, li {
 }
 
 #banner{
-    width: 1850px;
+    padding-bottom: 2em;
+    width: 1550px;
     height: 600px;
-    padding: 0,5em 0em 2em 0em;
-    margin-left: 10px;
-    margin-right: 10px;
+   
 }
 
 .float-end{
+    padding: 0em 1em 1em 0em;
+}
+
+.float-start{
     padding: 0em 1em 1em 0em;
 }
 
