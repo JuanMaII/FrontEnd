@@ -1,5 +1,7 @@
 body {
     background-color: black;
+    margin-left: 5em;
+    margin-right: 5em;
     }
     
 h2 {
@@ -23,8 +25,8 @@ p, ol, li {
 
 #banner{
     padding-bottom: 2em;
-    width: 1550px;
-    height: 600px;
+    width: 1700px;
+    height: auto;
    
 }
 
