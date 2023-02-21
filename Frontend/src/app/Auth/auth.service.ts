@@ -10,9 +10,6 @@ export class AuthService {
   url= 'http://localhost:3000/api';
   token: any;
 
-
- 
-
   constructor(private http: HttpClient, private router: Router) { }
 
   login(email: string, password: string) {
@@ -28,4 +25,13 @@ public get logIn (): boolean {
   return(localStorage.getItem('token') !== null);
 }
 
+isLoggedIn(){
+  const token = localStorage.getItem('token');
+  const payload = ('.') [1];
+  const parsedPayload = JSON.parse(payload);
+
+  return parsedPayload.exp > Date.now()/1000;
 }
+}
+
+
