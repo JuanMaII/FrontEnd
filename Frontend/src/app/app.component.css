@@ -1,5 +1,89 @@
 body {
-  background-color: black;
+  background-image: linear-gradient(0, #a3a7ff 0, #7a8ffc 25%, #3c78f2 50%, #0063e8 75%, #0051de 100%);
+}
+
+h1, p, h2, li, h2, h3, h4, h5 {
+  color: #fff;
+}
+
+header {
+  margin: 10px;
+}
+
+nav {
+  margin: 20px 0px 20px 0px;
+}
+
+main {
+  margin-top: 10em;
+}
+
+footer {
+  margin: 2em 0em 2em 2em;
+}
+
+#argentinaprograma {
+  height: 5%;
+  width: 5%;
+  border-radius: 100%;
+}
+
+#login {
+  font-family: Arial, sans-serif;
+  font-size: medium;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#login:hover {
+  color: #00b60f;
+}
+
+.redes {
+  height: 40px;
+  width: 40px;
+}
+
+#fondo_header {
+  position: relative;
+}
+
+#fitzroy {
+  width: 100%;
+  height: 70%;
+  margin: 10px 0px 10px 0px;
+}
+
+#foto_header {
+  width: 50% 50%;
+  position: relative;
+}
+
+#foto_perfil {
+  margin: -250px 600px 0px 50px;
+  border-radius: 100%;
+  border: 5px;
+  height: 25%;
+  width: 25%;
+}
+
+#nombre {
+  position: relative;
+  margin: -220px 0px 50px 600px;
+}
+
+#conocimiento {
+  margin: -100px 0px 25px 1000px;
+}
+
+.conocimientos {
+  font-size: medium;
+}
+
+#acerca_de {
+  display: flex;
+  flex-direction: row;
+  align-content: right;
 }
 
 /*# sourceMappingURL=app.component.css.map */
