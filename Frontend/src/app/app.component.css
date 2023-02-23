@@ -1,21 +1,37 @@
+* {
+  margin: 0;
+  border: 0;
+}
+
 body {
   background-image: linear-gradient(0, #a3a7ff 0, #7a8ffc 25%, #3c78f2 50%, #0063e8 75%, #0051de 100%);
 }
 
 h1, p, h2, li, h2, h3, h4, h5 {
-  color: #fff;
+  color: #000;
 }
 
 header {
   margin: 10px;
+  box-shadow: inset;
 }
 
 nav {
-  margin: 20px 0px 20px 0px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.8784313725);
+  border-radius: 5px;
+  box-shadow: inset;
+  margin: 10px 10px 0px 10px;
+  display: flex;
+  height: 100%;
+  width: auto;
 }
 
 main {
-  margin-top: 10em;
+  margin: 10px 10px 0px 10px;
+  background-color: #d1d1d1;
+  border-radius: 5px;
+  position: relative;
 }
 
 footer {
@@ -51,39 +67,38 @@ footer {
 #fitzroy {
   width: 100%;
   height: 70%;
-  margin: 10px 0px 10px 0px;
+  margin: 10px 0px 0px 0px;
+  border-radius: 5px;
 }
 
 #foto_header {
-  width: 50% 50%;
-  position: relative;
+  box-shadow: inset;
+  margin: -180px -50px 20px 80px;
 }
 
 #foto_perfil {
-  margin: -250px 600px 0px 50px;
   border-radius: 100%;
-  border: 5px;
-  height: 25%;
-  width: 25%;
+  height: auto;
+  width: 85%;
 }
 
 #nombre {
+  color: #000;
   position: relative;
-  margin: -220px 0px 50px 600px;
+  margin: 2em 0em 0.5em 2em;
+  height: 250px;
+  width: 100%;
 }
 
-#conocimiento {
-  margin: -100px 0px 25px 1000px;
+#experiencia {
+  position: relative;
+  margin: 10px 20px 0px 20px;
 }
 
-.conocimientos {
-  font-size: medium;
-}
-
-#acerca_de {
-  display: flex;
-  flex-direction: row;
-  align-content: right;
+.trabajo {
+  position: relative;
+  margin: 0em 0em 0.5em 2em;
+  height: auto;
 }
 
 /*# sourceMappingURL=app.component.css.map */
