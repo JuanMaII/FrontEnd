@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { Pagina404Component } from './component/pagina404/pagina404.component';
-import { LogInComponent } from './logIn/log-in/log-in.component';
+import { LoginComponent } from './logIn/log-in/log-in.component';
 import { HomeComponent } from './home/home/home.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
@@ -14,7 +14,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
   declarations: [
     AppComponent,
     Pagina404Component,
-    LogInComponent,
+    LoginComponent,
     HomeComponent
   ],
   imports: [
